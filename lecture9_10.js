@@ -1,4 +1,5 @@
 // Primitive data types :
+// these are stored in stack space and the copy gets edited
 // bool, null-> means empty not zero,String,Number,undefined,Symbol,BigInt
 
 const Id=Symbol('123')
@@ -6,6 +7,7 @@ const AnotherID=Symbol('123')
 console.log(Id == AnotherID); // it will give false as an output
 
 //Non Primitive (or Refernce)
+// this are stored in the Heap space and the refernced and original value gets changed
 // Arrays,objects and functions 
 const myArray=["apple","cat"]
  let myObj={
