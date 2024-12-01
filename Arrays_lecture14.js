@@ -19,6 +19,12 @@ let removed = array.splice(1, 2); // Remove 2 elements starting from index 1
 console.log(removed);  // Output: [2, 3] (removed elements)
 console.log(array);    // Output: [1, 4, 5] (original array is modified)
 
+// merge or concat arrays 
+// using concat method or spread operator {...myArr1, ...myArr2}
+
+// some array methods
+// isArray(),from(),of()
+
 
 
 
